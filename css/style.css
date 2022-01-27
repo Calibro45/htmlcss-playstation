@@ -1,9 +1,13 @@
 
+img {
+    max-width: 100%;
+}
+
 /* utilities */
 
 .button_style {
     border-radius: 999px;
-    padding: 0 15px;
+    padding: 5px 15px;
     color: white;
     border: none;
 }
@@ -13,9 +17,53 @@
     border: 1px solid #363636;
 }
 
+.button_red {
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+}
+
 /* intestazione */
 
 #sony {
     width: 50px;
     height: 25px;
+}
+
+/* jumbotron */
+
+.jumbo_wrap {
+    background-image: url(../img/jumbo-bg.png);
+    height: 480px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.jumbo_logo {
+    max-width: 250px;
+}
+
+.jumbo_title {
+    font-size: 32px;
+}
+
+.jumbo_text {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* media query */ 
+
+@media screen and (max-width:992px) {
+    
+    .nav_bar {
+        align-items: flex-start!important;
+    }
 }
