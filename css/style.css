@@ -51,6 +51,21 @@ img {
     font-size: 14px;
 }
 
+.jumbo_card.active,
+.jumbo_card:hover {
+    border-radius: 15px;
+    border: 2px solid #2285d4;
+    cursor: pointer;
+}
+
+.jumbo_card_head {
+    border-radius: 15px;
+    padding: 1px;
+}
+
+
+
+
 
 
 
