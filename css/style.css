@@ -24,6 +24,10 @@ img {
 
 /* intestazione */
 
+#nav_bar .nav-link {
+    color: #000;
+}
+
 #sony {
     width: 50px;
     height: 25px;
