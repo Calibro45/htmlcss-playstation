@@ -1,8 +1,17 @@
 
 /* utilities */
 
+.button_style {
+    border-radius: 999px;
+    padding: 0 15px;
+    color: white;
+    border: none;
+}
 
-
+.button_dark {
+    background-color: #363636;
+    border: 1px solid #363636;
+}
 
 /* intestazione */
 
