@@ -9,6 +9,10 @@ ol,ul {
     padding: 0;
 }
 
+header {
+    display: contents;
+}
+
 /* utilities */
 
 .button_style {
@@ -46,12 +50,18 @@ ol,ul {
 
 /* jumbotron */
 
-.jumbo_wrap {
+.returnal_banner {
     background-image: url(../img/jumbo-bg.png);
-    height: 650px;
+}
+
+.jumbo_wrap {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+#jumbotron .row {
+    min-height: 600px;
 }
 
 .jumbo_logo {
@@ -62,17 +72,28 @@ ol,ul {
     font-size: 32px;
 }
 
-.jumbo_card.active,
-.jumbo_card:hover {
+/* section game thumbs */
+
+#game_thumbs [class*="col"]:hover .game_card {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.game_card {
+    border: 2px solid transparent;
+    overflow: hidden;
+    transition: border 0.1s ease-in-out;
     border-radius: 15px;
+}
+
+.game_card.active,
+.game_card:hover {
+    outline: 2px solid white;
+    outline-offset: -4px;
     border: 2px solid #2285d4;
     cursor: pointer;
 }
 
-.jumbo_card_head {
-    border-radius: 15px;
-    padding: 1px;
-}
 
 /* section ps5 */
 
@@ -92,6 +113,7 @@ ol,ul {
 #ps5 .card_tools_ps5 {
     font-size: 14px;
     opacity: 0.7;
+    transition: all 0.3s ease-in-out;
 }
 
 #ps5 .card_tools_ps5.active::after,
@@ -108,8 +130,8 @@ ol,ul {
     display: block;
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 0.75rem;
+    right: 0.75rem;
     height: 1px;
     background-color: #2285d4;
     visibility: hidden;
