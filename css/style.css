@@ -98,7 +98,6 @@ header {
     cursor: pointer;
 }
 
-
 /* section ps5 */
 
 #ps5 a {
@@ -139,6 +138,24 @@ header {
     height: 1px;
     background-color: #2285d4;
     visibility: hidden;
+}
+
+
+/* new release */
+
+#new_release .tm_cit {
+    font-size: 6px;
+    vertical-align: super;
+}
+
+#new_release .new_game_header {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#new_release .new_game_title {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 
