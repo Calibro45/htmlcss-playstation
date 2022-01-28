@@ -37,6 +37,11 @@ header {
     border: 1px solid #2d64e6;
 }
 
+.button_light {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
 /* intestazione */
 
 #nav_bar .nav-link {
@@ -164,6 +169,15 @@ header {
     font-size: 14px;
 }
 
+/* ps plus */
+
+#ps_plus{
+    background-color: #bebcbb;
+}
+
+#ps_plus .ps_plus_logo {
+    max-width: 350px;
+}
 
 
 
@@ -182,6 +196,7 @@ header {
     .jumbo_logo {
         max-width: 350px;
     }
+
 }
 
 @media screen and (max-width:992px) {
