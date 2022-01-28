@@ -54,6 +54,10 @@ header {
     background-image: url(../img/jumbo-bg.png);
 }
 
+.it_takes_two_banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 .jumbo_wrap {
     background-size: cover;
     background-position: top center;
@@ -147,6 +151,13 @@ header {
 
 
 /* media query */ 
+
+@media screen and (max-width:768px) {
+
+    .jumbo_logo {
+        max-width: 350px;
+    }
+}
 
 @media screen and (max-width:992px) {
     
