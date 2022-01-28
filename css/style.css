@@ -20,6 +20,7 @@ header {
     padding: 5px 15px;
     color: white;
     border: none;
+    background-color: #fff;
 }
 
 .button_dark {
@@ -169,14 +170,18 @@ header {
     font-size: 14px;
 }
 
-/* ps plus */
+/* ps plus ps now */
 
 #ps_plus{
     background-color: #bebcbb;
 }
 
-#ps_plus .ps_plus_logo {
+.ps_plus_logo {
     max-width: 350px;
+}
+
+#ps_now {
+    background-color: #161c3b;
 }
 
 
