@@ -13,6 +13,12 @@ header {
     display: contents;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+    padding: 5px 0;
+}
+
 /* utilities */
 
 .button_style {
@@ -184,6 +190,36 @@ header {
     background-color: #161c3b;
 }
 
+/* footer */
+
+#credits_info {
+    background-color: #00439c;
+}
+
+#credits_info .sony_logo_footer img {
+    width: 120px;
+}
+
+#credits_info .globe_language {
+    width: 20px;
+    height: 20px;
+}
+
+#credits_info .language_text {
+    font-size: 12px;
+}
+
+#credits_info .contact_link {
+    font-size: 14px;
+}
+
+#credits_info .sie_logo {
+    max-width: 140px;
+}
+
+#credits_info .sie_text {
+    font-size: 12px;
+}
 
 
 
