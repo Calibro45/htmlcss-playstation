@@ -60,6 +60,19 @@ a {
     height: 25px;
 }
 
+.dropdown {
+    position: initial;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.drop_card {
+    max-width: 80px;
+    margin: 0 auto;
+}
+
 /* jumbotron */
 
 .returnal_banner {
@@ -125,6 +138,11 @@ a {
     font-weight: 500;
 }
 
+#ps5 .card_tools_ps5 img {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
 #ps5 .card_tools_ps5 {
     font-size: 14px;
     opacity: 0.7;
@@ -147,7 +165,7 @@ a {
     bottom: 0;
     left: 0.75rem;
     right: 0.75rem;
-    height: 1px;
+    height: 2px;
     background-color: #2285d4;
     visibility: hidden;
 }
