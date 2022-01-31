@@ -264,6 +264,36 @@ a {
     background-color: #161c3b;
 }
 
+/* discount */
+
+#discount .discount_card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#discount .discount_card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* social */
+
+.social_card {
+    overflow: hidden;
+}
+
+#social_media .social_card {
+    transition: all 0.3s ease-in-out;
+}
+
+#social_media .social_card:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 10px grey);
+}
+
+
+
 /* footer */
 
 #credits_info {
@@ -293,6 +323,11 @@ a {
 
 #credits_info .sie_text {
     font-size: 12px;
+}
+
+#credits_info .contact_link li a:hover {
+    color: currentColor;
+    text-decoration: underline;
 }
 
 
