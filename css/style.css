@@ -91,7 +91,6 @@ a {
     position: initial;
 }
 
-
 .dropdown-menu {
     width: 100%;
 }
@@ -272,7 +271,7 @@ a {
 
 #discount .discount_card:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
 /* social */
@@ -349,9 +348,3 @@ a {
 
 }
 
-@media screen and (max-width:992px) {
-    
-    .nav_bar {
-        align-items: flex-start!important;
-    }
-}
