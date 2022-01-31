@@ -32,6 +32,11 @@ a {
     background-color: #fff;
 }
 
+.button_hover:hover {
+    outline-offset: 2px;
+    outline: 2px solid #fff;
+}
+
 .button_dark {
     background-color: #363636;
     border: 1px solid #363636;
@@ -46,14 +51,29 @@ a {
     border: 1px solid #cd3d0f;
 }
 
+.button_red:hover {
+    outline-offset: 2px;
+    outline: 2px solid #cd3d0f;
+}
+
 .button_blue {
     background-color: #2d64e6;
     border: 1px solid #2d64e6;
 }
 
+.button_blue:hover {
+    outline-offset: 2px;
+    outline: 2px solid var(--bs-blue);
+}
+
 .button_light {
     background-color: #d9dadc;
     color: #2d64e6;
+}
+
+.button_light:hover {
+    outline-offset: 2px;
+    outline: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 /* intestazione */
@@ -212,6 +232,15 @@ a {
 #new_release .new_game_title {
     font-size: 14px;
     font-weight: 500;
+}
+
+#new_release .new_game_card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#new_release .new_game_card:hover {
+    transform: scale(1.07);
+    cursor: pointer;
 }
 
 /* explore ps4 */
